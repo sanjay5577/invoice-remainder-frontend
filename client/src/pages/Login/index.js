@@ -3,7 +3,7 @@ import styles from "./styles.module.css";
 
 function Login() {
 	const googleAuth = () => {
-			window.location.href = `${process.env.REACT_APP_API_URL}/auth/google`;
+			window.location.href = `${process.env.REACT_APP_API_URL}/auth/google/callback`;
 		};
 		
     
